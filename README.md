@@ -5,7 +5,7 @@
 
 **Notebook de demonstração:** [`AMS_predicao_lesoes_corredores.ipynb`](AMS_predicao_lesoes_corredores.ipynb)
 
-[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](COLE_AQUI_O_LINK_DO_GOOGLE_COLAB)
+[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1L1ilk9v1Pwkg51JwN945SMdXtxdP-5Ls?usp=sharing)
 
 ---
 
