@@ -1,6 +1,6 @@
 # Predição de lesões em corredores competitivos com Aprendizado de Máquina
 
-**Disciplina:** Aprendizado de Máquina para Saúde — Projeto de Aplicação
+**Disciplina:** Introdução ao Aprendizado de Máquina para Saúde — Projeto de Aplicação
 **Aluno:** Gabriel Abreu Alves
 
 **Notebook de demonstração:** [`AMS_predicao_lesoes_corredores.ipynb`](AMS_predicao_lesoes_corredores.ipynb)
