@@ -189,7 +189,7 @@ Na validação cruzada, cada fold de teste tem cerca de 15 atletas, com prevalê
 - **Na abordagem por semana, nenhum modelo se destacou.** As médias ficaram todas entre 0,606 e 0,629, com desvios-padrão maiores que as diferenças entre elas.
 - **A agregação por *bagging* estabiliza o modelo.** O XGBoost isolado, dependente de um *early stopping* ruidoso, ficou abaixo do Bagged XGBoost em todas as configurações.
 - **A normalização por atleta ajuda mais na abordagem por dia.** Por dia, ela melhorou a AUROC de todos os modelos (cerca de 0,01 a 0,03). Por semana, a AUROC praticamente não mudou, mas o lift da AUPRC subiu em todos os modelos (Bagged XGBoost de 1,56 para 2,04). Ou seja, a normalização ajuda a concentrar as lesões entre os dias de maior risco.
-- **Comparação com a literatura:** os resultados ficam abaixo dos reportados por Lövdal et al. (2021), mas mantêm a mesma ordem entre as abordagens. A diferença provavelmente vem do protocolo de avaliação: aqui a validação é estritamente separada por atleta.
+- **Comparação com a literatura:** os resultados ficam abaixo dos reportados por Lövdal et al. (2021), mas mantêm a mesma ordem entre as abordagens. Os dois trabalhos separam treino e teste por atleta; a diferença provável está no protocolo: o artigo testa em 10 atletas (média de 5 repetições), com 9 modelos e calibração de Platt, enquanto aqui a validação cruzada cobre os 74 atletas.
 - **Utilidade prática:** com especificidade em torno de 86%, o Bagged XGBoost diário detecta cerca de 32% das lesões, com precisão de 3,4%. Isso equivale a aproximadamente 1 lesão real a cada 29 alertas. O modelo serve como **sinal de risco** para revisar a carga, não como preditor confiável de lesões individuais.
 
 **Limitações:**
